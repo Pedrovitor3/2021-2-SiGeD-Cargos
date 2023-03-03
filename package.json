@@ -1,0 +1,40 @@
+{
+  "name": "2020-2-siged-roles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit --detectOpenHandles  --watchAll --maxWorkers=1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FGA-GCES/2020-2-SiGeD-Roles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FGA-GCES/2020-2-SiGeD-Roles/issues"
+  },
+  "homepage": "https://github.com/FGA-GCES/2020-2-SiGeD-Roles#readme",
+  "dependencies": {
+    "@types/jest": "^27.0.1",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.33",
+    "mongoose": "^5.13.6",
+    "supertest": "^6.1.6",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "nodemon": "^2.0.12"
+  }
+}
